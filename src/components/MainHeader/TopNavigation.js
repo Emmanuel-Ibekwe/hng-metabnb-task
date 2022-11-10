@@ -1,5 +1,5 @@
 const TopNavigation = () => {
-  return;
+  return <nav></nav>;
 };
 
 export default TopNavigation;
