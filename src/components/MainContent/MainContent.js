@@ -16,13 +16,18 @@ const MainContent = () => {
             metaverse, get achance to turn your imagination to reality at your
             comfort zone.
           </p>
+
+          <div className={styles["search-box"]}>
+            <input type="text" placeholder="Search for location" />
+            <button>Search</button>
+          </div>
         </div>
         <div className={styles["left-sub-section"]}>
           <div className="img__div">
-            <img src={dummyImage} />
-            <img src={dummyImage} />
-            <img src={dummyImage} />
-            <img src={dummyImage} />
+            <img src={dummyImage} id={styles.img1} />
+            <img src={dummyImage} id={styles.img2} />
+            <img src={dummyImage} id={styles.img3} />
+            <img src={dummyImage} id={styles.img4} />
           </div>
         </div>
       </section>

@@ -9,6 +9,7 @@
 }
 
 .first-section h1 {
+  font-family: "Red Rose";
   font-size: 56px;
   line-height: 78.4px;
   font-weight: 400;
@@ -20,9 +21,15 @@
   font-size: 56px;
   line-height: 78.4px;
   font-weight: 700;
-  background: linear-gradient(#a02279 100%, #ffc089 60%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 192, 137, 0.6) 11.45%,
+    #a02279 11.45%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .left-sub-section {
@@ -37,4 +44,12 @@
 .left-sub-section img {
   width: 234px;
   height: 176px;
+  border-radius: 15px;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0;
+}
+
+#img1,
+#img3 {
+  transform: translateY(50%);
 }
