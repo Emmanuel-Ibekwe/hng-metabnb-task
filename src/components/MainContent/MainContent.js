@@ -24,10 +24,10 @@ const MainContent = () => {
         </div>
         <div className={styles["left-sub-section"]}>
           <div className="img__div">
-            <img src={dummyImage} id={styles.img1} alt="dummy image" />
-            <img src={dummyImage} id={styles.img2} alt="dummy image" />
-            <img src={dummyImage} id={styles.img3} alt="dummy image" />
-            <img src={dummyImage} id={styles.img4} alt="dummy image" />
+            <img src={dummyImage} id={styles.img1} alt="dummy" />
+            <img src={dummyImage} id={styles.img2} alt="dummy" />
+            <img src={dummyImage} id={styles.img3} alt="dummy" />
+            <img src={dummyImage} id={styles.img4} alt="dummy" />
           </div>
         </div>
       </section>
