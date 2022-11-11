@@ -1,15 +1,20 @@
 .first-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0 0 5rem 0;
+  margin: 0;
+}
+
+.first-section .right-sub-section,
+.first-section .left-sub-section {
+  width: 50%;
+  display: flex;
 }
 
 .first-section .right-sub-section {
-  width: 50%;
-  padding-bottom: 5rem;
+  flex-direction: column;
 }
 
-.first-section h1 {
+.first-section .right-sub-section h1 {
   font-family: "Red Rose";
   font-size: 56px;
   line-height: 78.4px;
@@ -18,12 +23,7 @@
   text-align: left;
 }
 
-.right-sub-section p {
-  text-align: left;
-  margin-left: 1rem;
-}
-
-.first-section span {
+.first-section .right-sub-section h1 span {
   font-size: 56px;
   line-height: 78.4px;
   font-weight: 700;
@@ -38,38 +38,19 @@
   text-fill-color: transparent;
 }
 
-.left-sub-section {
-  display: flex;
-}
-
-.images-container {
-  width: 476px;
-  height: 459px;
-  display: flex;
-}
-
-.img-box {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.img-box-alt {
-  transform: translateY(25%);
-}
-
-.left-sub-section img {
-  width: 234px;
-  height: 176px;
-  border-radius: 15px;
-  margin: 0 0.5rem 0.5rem 0;
-  padding: 0;
+.first-section .right-sub-section p {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 24px;
+  line-height: 35px;
+  color: #434343;
+  font-family: "Red Rose";
 }
 
 .search-box {
   display: flex;
-  width: 300px;
-  height: 30px;
+  height: 54px;
+  width: 619px;
   padding: 0;
   margin-left: 1rem;
 }
@@ -84,10 +65,6 @@
   color: #b8b8b8;
 }
 
-.search-box input:focus {
-  border: 1px solid #f89687 !important;
-}
-
 .search-box button {
   width: 30%;
   display: inline-block;
@@ -98,3 +75,35 @@
   color: #fff;
   border: none;
 }
+
+/* .left-sub-section {
+  display: flex;
+}
+
+.images-container {
+  width: 476px;
+  height: 459px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.img-box-alt {
+  transform: translateY(25%);
+}
+
+.left-sub-section img {
+  width: 234px;
+  height: 176px;
+  border-radius: 15px;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0;
+} */

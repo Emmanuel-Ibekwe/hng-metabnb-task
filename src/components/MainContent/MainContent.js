@@ -22,7 +22,7 @@ const MainContent = () => {
             <button>Search</button>
           </div>
         </div>
-        <div className={styles["left-sub-section"]}>
+        {/* <div className={styles["left-sub-section"]}>
           <div className="images-container">
             <div className={`${styles["img-box"]} ${styles["img-box-alt"]}`}>
               <img src={dummyImage} alt="dummy" />
@@ -33,7 +33,7 @@ const MainContent = () => {
               <img src={dummyImage} alt="dummy" />
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <div></div>
     </Fragment>
