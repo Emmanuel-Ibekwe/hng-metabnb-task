@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import TopNavigation from "./components/MainHeader/TopNavigation";
+import MainContent from "./components/MainContent/MainContent";
 
 function App() {
   return (
     <div className="App">
-      <TopNavigation />
+      <MainContent />
     </div>
   );
 }

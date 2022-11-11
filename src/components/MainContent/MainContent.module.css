@@ -1,0 +1,40 @@
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section .right-sub-section {
+  width: 50%;
+}
+
+.first-section h1 {
+  font-size: 56px;
+  line-height: 78.4px;
+  font-weight: 400;
+  color: #434343;
+  text-align: left;
+}
+
+.first-section span {
+  font-size: 56px;
+  line-height: 78.4px;
+  font-weight: 700;
+  background: linear-gradient(#a02279 100%, #ffc089 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.left-sub-section {
+  display: flex;
+}
+
+.img__div {
+  width: 476px;
+  height: 459px;
+}
+
+.left-sub-section img {
+  width: 234px;
+  height: 176px;
+}
