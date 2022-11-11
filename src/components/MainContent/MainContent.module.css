@@ -42,9 +42,20 @@
   display: flex;
 }
 
-.img__div {
+.images-container {
   width: 476px;
   height: 459px;
+  display: flex;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.img-box-alt {
+  transform: translateY(25%);
 }
 
 .left-sub-section img {
@@ -53,11 +64,6 @@
   border-radius: 15px;
   margin: 0 0.5rem 0.5rem 0;
   padding: 0;
-}
-
-#img1,
-#img3 {
-  transform: translateY(50%);
 }
 
 .search-box {

@@ -23,11 +23,15 @@ const MainContent = () => {
           </div>
         </div>
         <div className={styles["left-sub-section"]}>
-          <div className="img__div">
-            <img src={dummyImage} id={styles.img1} alt="dummy" />
-            <img src={dummyImage} id={styles.img2} alt="dummy" />
-            <img src={dummyImage} id={styles.img3} alt="dummy" />
-            <img src={dummyImage} id={styles.img4} alt="dummy" />
+          <div className="images-container">
+            <div className={`${styles["img-box"]} ${styles["img-box-alt"]}`}>
+              <img src={dummyImage} alt="dummy" />
+              <img src={dummyImage} alt="dummy" />
+            </div>
+            <div className={`${styles["img-box"]} `}>
+              <img src={dummyImage} alt="dummy" />
+              <img src={dummyImage} alt="dummy" />
+            </div>
           </div>
         </div>
       </section>

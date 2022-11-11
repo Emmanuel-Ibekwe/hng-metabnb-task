@@ -6,7 +6,7 @@ const TopNavigation = () => {
     <nav className={classes["top-nav"]}>
       <div className={classes["logo__box"]}>
         <div className="logo__img">
-          <img src={houseLogo} alt="logo image" />
+          <img src={houseLogo} alt="logo" />
         </div>
         <h1>Metabnb</h1>
       </div>
