@@ -86,25 +86,28 @@
 /* classes in the left-sub-section */
 
 .images-container {
-  display: flex;
+  display: block;
   padding: 0;
   position: relative;
-  width: 70%;
+  width: 350px;
 }
 
 .img-box {
-  flex-direction: column;
-  width: 46%;
-  margin: 0 2% 2% 0;
+  display: flex;
+  width: 40%;
+  padding: 0;
 }
 
 .img-box-alt {
-  position: absolute;
-  top: 92px;
-  left: 0;
-  flex-direction: column;
-  width: 46%;
-  margin: 0 2% 2% 0;
+  display: flex;
+  width: 40%;
+  padding: 0;
+  margin-left: 2%;
+}
+
+.img-box img,
+.img-box-alt img {
+  width: 100%;
 }
 
 /* 
