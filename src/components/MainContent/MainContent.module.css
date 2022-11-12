@@ -51,7 +51,7 @@
 .search-box {
   display: flex;
   height: 54px;
-  width: 619px;
+  width: 300px;
   padding: 0;
 }
 
@@ -86,27 +86,23 @@
 /* classes in the left-sub-section */
 
 .images-container {
-  display: block;
+  display: flex;
   padding: 0;
   position: relative;
-  width: 350px;
+  width: 476px;
 }
 
-.img-box {
-  display: flex;
-  width: 40%;
-  padding: 0;
-}
-
+.img-box,
 .img-box-alt {
-  display: flex;
-  width: 40%;
+  margin: 0;
   padding: 0;
-  margin-left: 2%;
+  border-radius: 15px;
+  width: 234px;
 }
 
 .img-box img,
 .img-box-alt img {
+  height: 176px;
   width: 100%;
 }
 
