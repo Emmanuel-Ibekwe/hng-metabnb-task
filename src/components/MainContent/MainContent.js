@@ -7,6 +7,7 @@ import firstSectionImg4 from "../../assets/first-section-images/first-section-im
 import MetaMaskIcon from "../Icons/MetaMaskIcon";
 import OpenSeaIcon from "../Icons/OpenSeaIcon";
 import MbTokenIcon from "../Icons/MbTokenIcon";
+import NFTCardSection from "../NFTCard/NFTCardSection";
 
 const MainContent = () => {
   return (
@@ -63,6 +64,7 @@ const MainContent = () => {
       </section>
       <section className={styles["second-section"]}>
         <h3>Inspiration for your next adventure</h3>
+        <NFTCardSection />
       </section>
     </Fragment>
   );
