@@ -88,19 +88,17 @@
 .images-container {
   display: flex;
   padding: 0;
-
   position: relative;
-  height: 368px;
-  width: 476px;
+  width: 70%;
 }
 
-.images-container .img-box {
+.img-box {
   flex-direction: column;
   width: 46%;
   margin: 0 2% 2% 0;
 }
 
-.images-container .img-box-alt {
+.img-box-alt {
   position: absolute;
   top: 92px;
   left: 0;
