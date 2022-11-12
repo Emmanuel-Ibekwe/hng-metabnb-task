@@ -41,7 +41,7 @@ const MainContent = () => {
           </div>
         </div>
       </section>
-      <div className={styles["dividing-section"]}>
+      <section className={styles["dividing-section"]}>
         <div className={styles["mb-token"]}>
           <span>
             <MbTokenIcon />
@@ -60,7 +60,10 @@ const MainContent = () => {
           </span>
           OpenSea
         </div>
-      </div>
+      </section>
+      <section className={styles["second-section"]}>
+        <h3>Inspiration for your next adventure</h3>
+      </section>
     </Fragment>
   );
 };
