@@ -51,7 +51,7 @@
 .search-box {
   display: flex;
   height: 54px;
-  width: 300px;
+  width: 618px;
   padding: 0;
 }
 
@@ -90,20 +90,31 @@
   padding: 0;
   position: relative;
   width: 476px;
+  margin-right: 4rem;
 }
 
 .img-box,
 .img-box-alt {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   border-radius: 15px;
   width: 234px;
+  margin-left: 3px;
+}
+
+.img-box-alt {
+  position: relative;
+  top: 92px;
+  right: 0;
 }
 
 .img-box img,
 .img-box-alt img {
   height: 176px;
   width: 100%;
+  margin-bottom: 3px;
 }
 
 /* 

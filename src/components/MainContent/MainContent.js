@@ -26,13 +26,13 @@ const MainContent = () => {
           </div>
         </div>
         <div className={styles["left-sub-section"]}>
-          <div className="images-container">
+          <div className={styles["images-container"]}>
             <div className={`${styles["img-box-alt"]}`}>
               <img src={firstSectionImg1} alt="dummy" />
-              <img src={firstSectionImg3} alt="dummy" />
+              <img src={firstSectionImg2} alt="dummy" />
             </div>
             <div className={`${styles["img-box"]} `}>
-              <img src={firstSectionImg2} alt="dummy" />
+              <img src={firstSectionImg3} alt="dummy" />
               <img src={firstSectionImg4} alt="dummy" />
             </div>
           </div>
