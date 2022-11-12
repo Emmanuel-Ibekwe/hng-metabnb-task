@@ -12,12 +12,12 @@ const NFTCard = (props) => {
           <div>2345km away</div>
           <div></div>
         </div>
-        {/* <div className={styles["additional-details"]}>
+        <div className={styles["additional-details"]}>
           <div>
             <strong>1MBT per night</strong>
           </div>
           <div>available for 2weeks stay</div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

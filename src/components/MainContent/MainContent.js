@@ -66,6 +66,30 @@ const MainContent = () => {
         <h3>Inspiration for your next adventure</h3>
         <NFTCardSection />
       </section>
+      <section className={styles["third-section"]}>
+        <div className={styles.content}>
+          <p className={styles.heading}>Metabnb NFTs</p>
+          <p>
+            Discover our NFT gift cards collection. Loyal customers gets amazing
+            gift cards which are traded as NFTs. These NFTs gives our cutomer
+            access to loads of our exclusive services.
+          </p>
+          <div className={styles.actions}>
+            <button>Learn more</button>
+          </div>
+        </div>
+        <div className={styles["img-section"]}>
+          <div className={styles["img-box"]}>
+            <img />
+          </div>
+          <div className={styles["img-box"]}>
+            <img />
+          </div>
+          <div className={styles["img-box"]}>
+            <img />
+          </div>
+        </div>
+      </section>
     </Fragment>
   );
 };

@@ -150,6 +150,42 @@
   color: #ffffff;
 }
 
+.third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44.4375rem;
+  background-color: #a02279;
+}
+
+.third-section .content,
+.third-section .img-section {
+  width: 40%;
+  border: 1px solid #ccc;
+}
+
+.third-section .content {
+  text-align: left;
+  color: #fff;
+}
+
+.third-section .content .heading {
+  font-size: 3rem;
+  /* font-weight: 600; */
+}
+
+.third-section .content p {
+  font-size: 1.125rem;
+}
+
+.third-section button {
+  width: 9.75rem;
+  height: 2.76rem;
+  background: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
 /* 
 
 .images-container {
