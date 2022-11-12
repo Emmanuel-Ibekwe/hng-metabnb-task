@@ -1,5 +1,10 @@
 .card-section {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
-  padding: 8.875rem 6.25rem 3.3125rem;
+}
+
+.card-item {
 }

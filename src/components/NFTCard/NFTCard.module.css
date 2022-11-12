@@ -1,8 +1,9 @@
 .card {
   display: flex;
-  flex-direction: column;
-  height: 23.25rem;
-  width: 18.25rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 372px;
+  width: 292px;
   padding: 1rem;
   border-radius: 0.9375rem;
   border: 1px solid #d7d7d7;
