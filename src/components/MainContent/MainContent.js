@@ -4,6 +4,10 @@ import firstSectionImg1 from "../../assets/first-section-images/first-section-im
 import firstSectionImg2 from "../../assets/first-section-images/first-section-img-2.png";
 import firstSectionImg3 from "../../assets/first-section-images/first-section-img-3.png";
 import firstSectionImg4 from "../../assets/first-section-images/first-section-img-4.png";
+import thirdSectionImg1 from "../../assets/third-section-images/third-section-img-1.png";
+import thirdSectionImg2 from "../../assets/third-section-images/third-section-img-2.png";
+import thirdSectionImg3 from "../../assets/third-section-images/third-section-img-3.png";
+
 import MetaMaskIcon from "../Icons/MetaMaskIcon";
 import OpenSeaIcon from "../Icons/OpenSeaIcon";
 import MbTokenIcon from "../Icons/MbTokenIcon";
@@ -80,13 +84,13 @@ const MainContent = () => {
         </div>
         <div className={styles["img-section"]}>
           <div className={styles["img-box"]}>
-            <img />
+            <img src={thirdSectionImg1} id={styles["img__1"]} />
           </div>
           <div className={styles["img-box"]}>
-            <img />
+            <img src={thirdSectionImg2} id={styles["img__2"]} />
           </div>
           <div className={styles["img-box"]}>
-            <img />
+            <img src={thirdSectionImg3} id={styles["img__3"]} />
           </div>
         </div>
       </section>

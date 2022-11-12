@@ -151,6 +151,7 @@
 }
 
 .third-section {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,6 +185,21 @@
   background: #fff;
   border: none;
   border-radius: 0.5rem;
+}
+
+.third-section #img__1 {
+  position: relative;
+  height: 253.88761593879642px;
+  width: 378.20500471482205px;
+  left: 119.37px;
+  top: 100px;
+  border-radius: 10px;
+}
+
+.third-section #img__2 {
+}
+
+.third-section #img__3 {
 }
 
 /* 
