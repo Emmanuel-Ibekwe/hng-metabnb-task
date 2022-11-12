@@ -1,6 +1,9 @@
 import { Fragment } from "react";
 import styles from "./MainContent.module.css";
-import dummyImage from "../../assets/dummy-image.jfif";
+import firstSectionImg1 from "../../assets/first-section-images/first-section-img-1.png";
+import firstSectionImg2 from "../../assets/first-section-images/first-section-img-1.png";
+import firstSectionImg3 from "../../assets/first-section-images/first-section-img-1.png";
+import firstSectionImg4 from "../../assets/first-section-images/first-section-img-1.png";
 
 const MainContent = () => {
   return (
@@ -22,18 +25,18 @@ const MainContent = () => {
             <button>Search</button>
           </div>
         </div>
-        {/* <div className={styles["left-sub-section"]}>
+        <div className={styles["left-sub-section"]}>
           <div className="images-container">
             <div className={`${styles["img-box"]} ${styles["img-box-alt"]}`}>
-              <img src={dummyImage} alt="dummy" />
-              <img src={dummyImage} alt="dummy" />
+              <img src={firstSectionImg1} alt="dummy" />
+              <img src={firstSectionImg3} alt="dummy" />
             </div>
             <div className={`${styles["img-box"]} `}>
-              <img src={dummyImage} alt="dummy" />
-              <img src={dummyImage} alt="dummy" />
+              <img src={firstSectionImg2} alt="dummy" />
+              <img src={firstSectionImg4} alt="dummy" />
             </div>
           </div>
-        </div> */}
+        </div>
       </section>
       <div></div>
     </Fragment>
