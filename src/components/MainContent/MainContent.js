@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 import styles from "./MainContent.module.css";
 import firstSectionImg1 from "../../assets/first-section-images/first-section-img-1.png";
-import firstSectionImg2 from "../../assets/first-section-images/first-section-img-1.png";
-import firstSectionImg3 from "../../assets/first-section-images/first-section-img-1.png";
-import firstSectionImg4 from "../../assets/first-section-images/first-section-img-1.png";
+import firstSectionImg2 from "../../assets/first-section-images/first-section-img-2.png";
+import firstSectionImg3 from "../../assets/first-section-images/first-section-img-3.png";
+import firstSectionImg4 from "../../assets/first-section-images/first-section-img-4.png";
 
 const MainContent = () => {
   return (
@@ -27,7 +27,7 @@ const MainContent = () => {
         </div>
         <div className={styles["left-sub-section"]}>
           <div className="images-container">
-            <div className={`${styles["img-box"]} ${styles["img-box-alt"]}`}>
+            <div className={`${styles["img-box-alt"]}`}>
               <img src={firstSectionImg1} alt="dummy" />
               <img src={firstSectionImg3} alt="dummy" />
             </div>
