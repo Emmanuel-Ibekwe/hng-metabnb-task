@@ -4,12 +4,13 @@ const NFTCard = (props) => {
   return (
     <div className={styles.card}>
       <div className={style["img-box"]}>
-        <img src={props.src} />
+        <img src={props.imgSrc} />
       </div>
       <div className={style["details"]}>
         <div className={style["main-details"]}>
           <div>Desert King</div>
           <div>2345km away</div>
+          <div></div>
         </div>
         <div className={style["additional-details"]}>
           <div>
