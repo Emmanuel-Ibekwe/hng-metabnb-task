@@ -4,6 +4,9 @@ import firstSectionImg1 from "../../assets/first-section-images/first-section-im
 import firstSectionImg2 from "../../assets/first-section-images/first-section-img-2.png";
 import firstSectionImg3 from "../../assets/first-section-images/first-section-img-3.png";
 import firstSectionImg4 from "../../assets/first-section-images/first-section-img-4.png";
+import MetaMaskIcon from "../Icons/MetaMaskIcon";
+import OpenSeaIcon from "../Icons/OpenSeaIcon";
+import MbTokenIcon from "../Icons/MbTokenIcon";
 
 const MainContent = () => {
   return (
@@ -12,7 +15,7 @@ const MainContent = () => {
         <div className={styles["right-sub-section"]}>
           <h1>
             Rent a <span>Place</span> away from <span>Home</span> in the
-            <span>Metaverse</span>
+            <span> Metaverse</span>
           </h1>
           <p>
             We provide you access to luxury and affordable houses in the
@@ -38,7 +41,26 @@ const MainContent = () => {
           </div>
         </div>
       </section>
-      <div></div>
+      <div className={styles["dividing-section"]}>
+        <div className={styles["mb-token"]}>
+          <span>
+            <MbTokenIcon />
+          </span>
+          MBToken
+        </div>
+        <div className={styles.metamask}>
+          <span>
+            <MetaMaskIcon />
+          </span>
+          MetaMask
+        </div>
+        <div className={styles["open-sea"]}>
+          <span>
+            <OpenSeaIcon />
+          </span>
+          OpenSea
+        </div>
+      </div>
     </Fragment>
   );
 };
