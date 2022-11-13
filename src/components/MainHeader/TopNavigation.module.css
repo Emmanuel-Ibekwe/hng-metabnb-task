@@ -1,7 +1,18 @@
 .top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+  padding-top: 2.6875rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .top-nav ul {
@@ -10,8 +21,8 @@
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content: space-around;
   align-items: baseline;
+  gap: 6.5625rem;
   width: 50%;
 }
 
@@ -39,6 +50,7 @@
   margin: 0;
   justify-content: flex-start;
   align-items: baseline;
+  cursor: pointer;
 }
 
 img {
@@ -55,6 +67,7 @@ img {
   color: #434343;
   font-size: 1.25rem;
   line-height: 1.56rem;
+  cursor: pointer;
 }
 
 .top-nav button {
@@ -65,4 +78,5 @@ img {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
