@@ -1,6 +1,7 @@
 const MbTokenIcon = (props) => {
   return (
     <svg
+      className={props.className}
       width="51"
       height="50"
       viewBox="0 0 51 50"

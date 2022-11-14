@@ -1,6 +1,7 @@
 const OpenSeaIcon = (props) => {
   return (
     <svg
+      className={props.className}
       width="40"
       height="42"
       viewBox="0 0 40 42"
