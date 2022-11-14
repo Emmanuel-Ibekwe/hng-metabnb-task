@@ -7,11 +7,13 @@ import firstSectionImg4 from "../../assets/first-section-images/first-section-im
 import thirdSectionImg1 from "../../assets/third-section-images/third-section-img-1.png";
 import thirdSectionImg2 from "../../assets/third-section-images/third-section-img-2.png";
 import thirdSectionImg3 from "../../assets/third-section-images/third-section-img-3.png";
+import MetaMaskLetterLogo from "../../assets/Metamask-letters.PNG";
 
 import MetaMaskIcon from "../Icons/MetaMaskIcon";
 import OpenSeaIcon from "../Icons/OpenSeaIcon";
 import MbTokenIcon from "../Icons/MbTokenIcon";
 import NFTCardSection from "../NFTCard/NFTCardSection";
+import MetaMaskLetters from "../Icons/MetaMaskLetters";
 
 const MainContent = () => {
   return (
@@ -49,19 +51,19 @@ const MainContent = () => {
       <section className={styles["dividing-section"]}>
         <div className={styles["mb-token"]}>
           <span>
-            <MbTokenIcon />
+            <MbTokenIcon className={styles.icon} />
           </span>
           MBToken
         </div>
         <div className={styles.metamask}>
           <span>
-            <MetaMaskIcon />
+            <MetaMaskIcon className={styles.icon} />
           </span>
-          MetaMask
+          <img src={MetaMaskLetterLogo} />
         </div>
         <div className={styles["open-sea"]}>
           <span>
-            <OpenSeaIcon />
+            <OpenSeaIcon className={styles.icon} />
           </span>
           OpenSea
         </div>
@@ -83,15 +85,9 @@ const MainContent = () => {
           </div>
         </div>
         <div className={styles["img-section"]}>
-          <div className={styles["img-box"]}>
-            <img src={thirdSectionImg1} id={styles["img__1"]} />
-          </div>
-          <div className={styles["img-box"]}>
-            <img src={thirdSectionImg2} id={styles["img__2"]} />
-          </div>
-          <div className={styles["img-box"]}>
-            <img src={thirdSectionImg3} id={styles["img__3"]} />
-          </div>
+          <img src={thirdSectionImg1} id={styles["img__1"]} />
+          <img src={thirdSectionImg2} id={styles["img__2"]} />
+          <img src={thirdSectionImg3} id={styles["img__3"]} />
         </div>
       </section>
     </Fragment>

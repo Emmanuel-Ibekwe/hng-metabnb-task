@@ -128,6 +128,15 @@
   height: 4.375rem;
 }
 
+.dividing-section .icon {
+  margin-bottom: -0.7rem;
+  margin-right: 0.75rem;
+}
+
+.mb-token .icon {
+  margin-right: 0 !important;
+}
+
 .mb-token {
   /* font-family: AirbnbCereal_W_Bd; */
   font-size: 40px;
@@ -139,6 +148,14 @@
 }
 
 .metamask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.metamask img {
+  width: 155px;
+  height: 40.79px;
 }
 
 .open-sea {
@@ -151,18 +168,17 @@
 }
 
 .third-section {
-  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 44.4375rem;
   background-color: #a02279;
+  padding: 0;
+  border: 1px solid #000;
 }
 
-.third-section .content,
-.third-section .img-section {
-  width: 40%;
-  border: 1px solid #ccc;
+.third-section .content {
+  width: 30%;
 }
 
 .third-section .content {
@@ -186,20 +202,37 @@
   border: none;
   border-radius: 0.5rem;
 }
-
-.third-section #img__1 {
+.third-section .img-section {
   position: relative;
-  height: 253.88761593879642px;
-  width: 378.20500471482205px;
-  left: 119.37px;
-  top: 100px;
-  border-radius: 10px;
+  width: 650.34px;
+  height: 495.59px;
 }
 
-.third-section #img__2 {
+.img-section img {
+  position: absolute;
+  width: 378.21px;
+  height: 253.89px;
 }
 
-.third-section #img__3 {
+.img-section #img__1 {
+  left: 0;
+  top: 185.68px;
+  z-index: 10;
+  transform: rotate(-26.02deg);
+}
+
+.img-section #img__2 {
+  top: 0;
+  right: 33.67px;
+  z-index: 1;
+  transform: rotate(17.76deg);
+}
+
+.img-section #img__3 {
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  transform: rotate(-8.76deg);
 }
 
 /* 
