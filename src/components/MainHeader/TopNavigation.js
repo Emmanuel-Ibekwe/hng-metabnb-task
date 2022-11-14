@@ -1,4 +1,5 @@
 import houseLogo from "../../assets/house.png";
+import MenuIcon from "../Icons/SocialIcons/MenuIcon";
 import classes from "./TopNavigation.module.css";
 
 const TopNavigation = () => {
@@ -11,6 +12,9 @@ const TopNavigation = () => {
         <h1>Metabnb</h1>
       </div>
       <ul>
+        <li className={classes["close-btn"]}>
+          <span>&times;</span>
+        </li>
         <li>
           <a>Home</a>
         </li>
@@ -26,6 +30,8 @@ const TopNavigation = () => {
       </ul>
 
       <button>Connect wallet</button>
+
+      <MenuIcon className={classes.menu} />
     </nav>
   );
 };
