@@ -1,4 +1,4 @@
-import houseLogo from "../../assets/house.png";
+import houseLogo from "../../assets/house.PNG";
 import MenuIcon from "../Icons/SocialIcons/MenuIcon";
 import classes from "./TopNavigation.module.css";
 
