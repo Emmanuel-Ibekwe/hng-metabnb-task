@@ -6,8 +6,7 @@
   width: 100%;
   background: #fff;
   z-index: 100;
-  padding-top: 2.6875rem;
-  padding-bottom: 1rem;
+  padding: 2.6875rem 0 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
