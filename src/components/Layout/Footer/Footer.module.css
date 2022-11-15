@@ -1,0 +1,81 @@
+.footer {
+  padding: 3.625rem 0 2.4rem 7rem;
+  background: #1d1d1e;
+}
+
+.footer p {
+  color: #f1f3f9;
+}
+
+footer h4 {
+  color: white;
+  font-weight: 400;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fff;
+  text-align: left;
+}
+
+.first-section,
+.places-section,
+.community-section,
+.about-us-section {
+  width: 25%;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #f7f7f7;
+  gap: 4rem;
+}
+
+.first-section img {
+  margin-top: 1rem;
+  width: 12.46rem;
+  height: 2.1rem;
+}
+
+.socials-row {
+  display: flex;
+  gap: 2rem;
+}
+
+.socials {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .first-section,
+  .places-section,
+  .community-section,
+  .about-us-section {
+    width: 50%;
+  }
+
+  .about-us-section {
+    order: 1;
+  }
+
+  .community-section {
+    order: 2;
+  }
+
+  .places-section {
+    order: 3;
+  }
+
+  .first-section {
+    order: 4;
+  }
+}
+
+@media screen and (max-width: 625px) {
+}
