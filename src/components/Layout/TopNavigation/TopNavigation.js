@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import { NavLink } from "react-router-dom";
-import houseLogo from "../../../assets/house.png";
+import houseLogo from "../../../assets/house.PNG";
 import ConnectWalletModal from "../../ConnectWalletModal/ConnectWalletModal";
 import MenuIcon from "../../Icons/SocialIcons/MenuIcon";
 import classes from "./TopNavigation.module.css";
