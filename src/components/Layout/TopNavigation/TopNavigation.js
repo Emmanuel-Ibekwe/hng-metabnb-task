@@ -1,10 +1,19 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import houseLogo from "../../../assets/house.png";
 import ConnectWalletModal from "../../ConnectWalletModal/ConnectWalletModal";
 import MenuIcon from "../../Icons/SocialIcons/MenuIcon";
 import classes from "./TopNavigation.module.css";
 
 const TopNavigation = () => {
+  const [openModal, setOpenModal] = useState(false);
+  const openConnectWalletModalHandler = () => {
+    setOpenModal(true);
+  };
+
+  const closeConnectWalletModalHandler = () => {
+    setOpenModal(false);
+  };
+
   return (
     <Fragment>
       <nav className={classes["top-nav"]}>
@@ -33,11 +42,15 @@ const TopNavigation = () => {
         </ul>
 
         <div className={classes.actions}>
-          <button>Connect wallet</button>
+          <button onClick={openConnectWalletModalHandler}>
+            Connect wallet
+          </button>
           <MenuIcon className={classes.menu} />
         </div>
       </nav>
-      <ConnectWalletModal />
+      {openModal && (
+        <ConnectWalletModal onClose={closeConnectWalletModalHandler} />
+      )}
     </Fragment>
   );
 };
