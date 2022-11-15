@@ -1,4 +1,5 @@
 import { Fragment, useState } from "react";
+import { NavLink } from "react-router-dom";
 import houseLogo from "../../../assets/house.png";
 import ConnectWalletModal from "../../ConnectWalletModal/ConnectWalletModal";
 import MenuIcon from "../../Icons/SocialIcons/MenuIcon";
@@ -28,16 +29,36 @@ const TopNavigation = () => {
             <span>&times;</span>
           </li>
           <li>
-            <a>Home</a>
+            <NavLink
+              className={(navData) => (navData.isActive ? classes.active : "")}
+              to="/home"
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <a>Place to stay</a>
+            <NavLink
+              className={(navData) => (navData.isActive ? classes.active : "")}
+              to="/place-to-stay"
+            >
+              Place to stay
+            </NavLink>
           </li>
           <li>
-            <a>NFTs</a>
+            <NavLink
+              className={(navData) => (navData.isActive ? classes.active : "")}
+              to="/"
+            >
+              NFTs
+            </NavLink>
           </li>
           <li>
-            <a>Community</a>
+            <NavLink
+              className={(navData) => (navData.isActive ? classes.active : "")}
+              to="/"
+            >
+              Community
+            </NavLink>
           </li>
         </ul>
 
