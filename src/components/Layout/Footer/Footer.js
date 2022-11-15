@@ -1,9 +1,9 @@
 import styles from "./Footer.module.css";
-import metabnbLogo from "../../assets/metabnb-logo-footer.PNG";
+import metabnbLogo from "../../../assets/metabnb-logo-footer.PNG";
 import FacebookIcon from "../../Icons/SocialIcons/FacebookIcon";
 import InstagramIcon from "../../Icons/SocialIcons/InstagramIcon";
 import TwitterIcon from "../../Icons/SocialIcons/TwitterIcon";
-
+// metabnb-logo-footer.PNG
 const Footer = () => {
   return (
     <div className={styles.footer}>

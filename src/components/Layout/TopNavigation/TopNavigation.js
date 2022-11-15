@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import houseLogo from "../../assets/house.png";
+import houseLogo from "../../../assets/house.png";
 import ConnectWalletModal from "../../ConnectWalletModal/ConnectWalletModal";
 import MenuIcon from "../../Icons/SocialIcons/MenuIcon";
 import classes from "./TopNavigation.module.css";
