@@ -7,12 +7,22 @@ import classes from "./TopNavigation.module.css";
 
 const TopNavigation = () => {
   const [openModal, setOpenModal] = useState(false);
+  const [openSideBar, setOpenSideBar] = useState(false);
+
   const openConnectWalletModalHandler = () => {
     setOpenModal(true);
   };
 
   const closeConnectWalletModalHandler = () => {
     setOpenModal(false);
+  };
+
+  const openSideBarHandler = () => {
+    setOpenSideBar(true);
+  };
+
+  const closeSideBarHandler = () => {
+    setOpenSideBar(false);
   };
 
   return (
@@ -24,9 +34,9 @@ const TopNavigation = () => {
           </div>
           <h1>Metabnb</h1>
         </div>
-        <ul>
+        <ul className={openSideBar ? classes["open-side-bar"] : ""}>
           <li className={classes["close-btn"]}>
-            <span>&times;</span>
+            <span onClick={closeSideBarHandler}>&times;</span>
           </li>
           <li>
             <NavLink
@@ -66,7 +76,7 @@ const TopNavigation = () => {
           <button onClick={openConnectWalletModalHandler}>
             Connect wallet
           </button>
-          <MenuIcon className={classes.menu} />
+          <MenuIcon className={classes.menu} onClick={openSideBarHandler} />
         </div>
       </nav>
       {openModal && (
