@@ -16,7 +16,7 @@ footer h4 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  flex-wrap: wrap;
   color: #fff;
   text-align: left;
 }
@@ -50,4 +50,32 @@ footer h4 {
 .socials {
   width: 1.125rem;
   height: 1.125rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .first-section,
+  .places-section,
+  .community-section,
+  .about-us-section {
+    width: 50%;
+  }
+
+  .about-us-section {
+    order: 1;
+  }
+
+  .community-section {
+    order: 2;
+  }
+
+  .places-section {
+    order: 3;
+  }
+
+  .first-section {
+    order: 4;
+  }
+}
+
+@media screen and (max-width: 625px) {
 }

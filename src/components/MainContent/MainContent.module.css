@@ -1,8 +1,7 @@
 .first-section {
   display: flex;
-  padding: 0 3rem 0 3rem;
+  padding: 0 3rem 4rem 3rem;
   margin-top: 8.37rem;
-  height: 742px;
 }
 
 .first-section .right-sub-section,
@@ -84,8 +83,6 @@
   border: none;
 }
 
-/* classes in the left-sub-section */
-
 .images-container {
   display: flex;
   padding: 0;
@@ -117,6 +114,120 @@
   width: 100%;
   margin-bottom: 8px;
 }
+
+@media screen and (max-width: 1200px) {
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 5rem 1rem;
+  }
+
+  .first-section .right-sub-section,
+  .first-section .left-sub-section {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-section .right-sub-section h1 {
+    font-size: 56px;
+    line-height: 78.4px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .first-section .right-sub-section h1 span {
+    font-size: 56px;
+    line-height: 78.4px;
+    font-weight: 700;
+  }
+
+  .first-section .right-sub-section p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    color: #434343;
+  }
+
+  .search-box {
+    display: flex;
+    height: 54px;
+    width: 85%;
+    padding: 0;
+  }
+
+  .search-box input {
+    width: 70%;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #a3a3a3;
+    background: rgba(247, 247, 247, 0.1);
+    border: 1px solid #a3a3a3;
+    border-radius: 8px 0px 0px 8px;
+    /* font styles */
+    color: #b8b8b8;
+    font-family: "Red Rose";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .search-box button {
+    width: 30%;
+    display: inline-block;
+    margin: 0;
+    padding: 0.3rem 0.9rem;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+    border-radius: 0px 8px 8px 0px;
+    color: #fff;
+    border: none;
+  }
+
+  .images-container {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5.75rem;
+    width: 66%;
+
+    /* display: flex;
+  padding: 0;
+  position: relative;
+  width: 476px;
+  margin: 4rem 5rem 0 4rem; */
+  }
+
+  .img-box,
+  .img-box-alt {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    width: 234px;
+    margin-left: 8px;
+  }
+
+  .img-box-alt {
+    position: relative;
+    top: 92px;
+    right: 0;
+  }
+
+  .img-box img,
+  .img-box-alt img {
+    height: 176px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
+/* ****************** */
+
+/* classes in the left-sub-section */
 
 .dividing-section {
   display: flex;
@@ -167,13 +278,20 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 720px) {
+  .dividing-section span {
+    display: none;
+  }
+}
+
 .third-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 44.4375rem;
+  padding-bottom: 3rem;
   background-color: #a02279;
   padding: 0;
+  height: 774px;
   border: 1px solid #000;
 }
 
@@ -208,6 +326,51 @@
   height: 495.59px;
 }
 
+@media screen and (max-width: 1200px) {
+  .third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .third-section .content,
+  .img-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .third-section .content .heading {
+    font-size: 3rem;
+    /* font-weight: 600; */
+  }
+
+  .third-section .content p {
+    font-size: 1.125rem;
+  }
+
+  .third-section button {
+    width: 9.75rem;
+    height: 2.76rem;
+    background: #fff;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  .third-section .img-section {
+    position: relative;
+    transform: scale(0.7);
+  }
+}
+
 .img-section img {
   position: absolute;
   width: 378.21px;
@@ -233,6 +396,16 @@
   right: 0;
   z-index: 5;
   transform: rotate(-8.76deg);
+}
+
+@media screen and (max-width: 625px) {
+  .third-section .img-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.65);
+  }
 }
 
 /* 

@@ -1,4 +1,4 @@
-import houseLogo from "../../assets/house.PNG";
+import houseLogo from "../../assets/house.png";
 import MenuIcon from "../Icons/SocialIcons/MenuIcon";
 import classes from "./TopNavigation.module.css";
 
@@ -29,9 +29,10 @@ const TopNavigation = () => {
         </li>
       </ul>
 
-      <button>Connect wallet</button>
-
-      <MenuIcon className={classes.menu} />
+      <div className={classes.actions}>
+        <button>Connect wallet</button>
+        <MenuIcon className={classes.menu} />
+      </div>
     </nav>
   );
 };

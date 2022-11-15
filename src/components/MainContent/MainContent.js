@@ -50,22 +50,20 @@ const MainContent = () => {
       </section>
       <section className={styles["dividing-section"]}>
         <div className={styles["mb-token"]}>
-          <span>
-            <MbTokenIcon className={styles.icon} />
-          </span>
-          MBToken
+          <MbTokenIcon className={styles.icon} />
+          <span>MBToken</span>
         </div>
         <div className={styles.metamask}>
+          <MetaMaskIcon className={styles.icon} />
+
           <span>
-            <MetaMaskIcon className={styles.icon} />
+            <img src={MetaMaskLetterLogo} />
           </span>
-          <img src={MetaMaskLetterLogo} />
         </div>
         <div className={styles["open-sea"]}>
-          <span>
-            <OpenSeaIcon className={styles.icon} />
-          </span>
-          OpenSea
+          <OpenSeaIcon className={styles.icon} />
+
+          <span>OpenSea</span>
         </div>
       </section>
       <section className={styles["second-section"]}>
