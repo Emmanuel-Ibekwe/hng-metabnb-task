@@ -1,19 +1,11 @@
 import "./App.css";
-import MainContent from "./components/MainContent/MainContent";
-import TopNavigation from "./components/TopNavigation/TopNavigation";
-import Footer from "./components/Footer/Footer";
-import Layout from "./components/Layout/Layout";
+import Home from "./pages/Home";
 import ConnectWalletModal from "./components/ConnectWalletModal/ConnectWalletModal";
 
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <TopNavigation />
-        <MainContent />
-        <Footer />
-      </Layout>
-      <ConnectWalletModal />
+      <Home />
     </div>
   );
 }
