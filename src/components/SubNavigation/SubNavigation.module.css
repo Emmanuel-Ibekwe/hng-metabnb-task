@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8.37rem;
+  padding: 5.25rem 2rem 3.94rem;
+  color: #434343;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  list-style-type: none;
+  margin: 0 1rem 0 0;
+  padding: 0;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 161px;
+  color: #333;
+  border: 1px solid #b4b4b4;
+  border-radius: 18px;
+  cursor: pointer;
+}
