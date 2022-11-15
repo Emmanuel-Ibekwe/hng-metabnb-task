@@ -1,3 +1,4 @@
+import LocationIcon from "../Icons/LocationIcon";
 import styles from "./SubNavigation.module.css";
 
 const SubNavigation = () => {
@@ -31,6 +32,7 @@ const SubNavigation = () => {
       </ul>
       <div className={styles.location}>
         <span>Location</span>
+        <LocationIcon />
       </div>
     </nav>
   );
